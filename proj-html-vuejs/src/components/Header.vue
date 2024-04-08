@@ -34,14 +34,42 @@ export default {
 
     <!--MIDDLE SECTION-->
     <div class="container d-flex" id="headerMiddle">
-        <div></div> <!--logo-->
-        <div></div> <!--searchbar-->
-        <div></div> <!--call to arms-->
-        <div></div> <!--login menu-->
+        <div>
+            <img src="proj-html-vuejs/src/assets/images/footer-logo2x-50x56.png" alt="MASTER STUDY">
+            <h2>
+                <span style="color:#292f47; font-weight: bolder;">MASTER</span>
+                <span style="color: #292f47; font-weight: lighter;">STUDY</span>
+            </h2>
+        </div> <!--logo-->
+        <div>
+            <p> <i class="fa-solid fa-bars"></i> CATEGORY</p>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search courses" aria-label="" aria-describedby="">
+                <button class="btn btn-outline-secondary" type="button" style="color: #334453;" ><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div> <!--searchbar-->
+        <div class="d-flex justify-content-between" >
+            <div> <!--call to arms-->
+                <p> <i class="fa-solid fa-bullhorn"></i> Become an instructor</p>
+                <p> <i class="fa-solid fa-briefcase"></i> For enterprise</p>
+            </div>
+            <div><!--login menu-->
+                <p><i class="fa-regular fa-user"></i> Log In</p>
+                <!--SIGN UP BUTTON !!!!-->
+                <p><i class="fa-regular fa-bookmark"></i></p>
+            </div>
+        </div> 
     </div>
     <!---MIDDLE SECTION-->
 
     <!--BOTTOM SECTION-->
+    <div class="container d-flex justify-content-center" id="headerBottom">
+        <span><i class="fa-solid fa-chart-simple"></i> Business</span>
+        <span><i class="fa-solid fa-palette"></i> Design</span>
+        <span><i class="fa-solid fa-gear"></i> Development</span>
+        <span><i class="fa-regular fa-face-smile"></i> Lifestyle</span>
+        <span><i class="fa-solid fa-folder-open"></i> Office Productivity</span>
+    </div>
     <!--BOTTOM SECTION-->
 
 </header>
@@ -56,21 +84,24 @@ header{
 header ul {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 #headerTop{
     border-bottom: 1px solid gray;
     height: 50px;
-    text-align: center;
     line-height: 50px;
 }
 
 #headerMiddle{
     height: 105px;
+    line-height: 105px;
 }
 
 #headerBottom{
     height: 75px;
     background-color: #292f47;
+    color: white;
+    line-height: 75px;
 }
 </style>
