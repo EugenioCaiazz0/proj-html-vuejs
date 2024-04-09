@@ -21,7 +21,7 @@ export default {
 </div>
 
  <!--popular dev courses-->
- <div class="container" style="height: 600px;">
+ <div class="container" style="height: 600px;"> <!--semplificare la struttura?-->
     <h3 style="font-weight: bold;"> Popular development courses</h3>
     <!--card da replicare 270x170x360, fare il componente???-->
       <div class="card">
@@ -47,6 +47,16 @@ export default {
     </div>
   </div>
 
+<!--2 Jumbotron-->
+<div class="container-fluid d-flex" id="2Jumbotron">
+  <div class="d-flex flex-column" style="padding-left:15%; padding-top: 140px;">
+    <h1> Limitless learning, <br> more possibilities</h1>
+    <p> Online courses open the opportunity for learning to almost anyone, <br>
+        regardless of their scheduling committments. </p>
+    <button type="button" class="btn" id="readMoreBtn"> READ MORE </button>    
+    </div>
+  </div>
+
 </template>
 
 <style lang="scss" scoped>
@@ -57,6 +67,21 @@ export default {
   height: 400px;
   text-align: center;
   line-height: 100%;
+}
+
+#2Jumbotron{
+  height: 530px; 
+  background-image: url(./assets/images/bg.png); 
+  background-position: 75% 75%;
+}
+
+#readMoreBtn{
+  background-color: #ff4550; 
+  width: fit-content; 
+  color: white; 
+  padding: 15px; 
+  padding-top: 15px; 
+  font-size: large;
 }
 
 .card{
