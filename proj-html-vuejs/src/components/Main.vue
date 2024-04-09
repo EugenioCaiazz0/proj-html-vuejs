@@ -20,6 +20,33 @@ export default {
     </div>
 </div>
 
+ <!--popular dev courses-->
+ <div class="container" style="height: 600px;">
+    <h3 style="font-weight: bold;"> Popular development courses</h3>
+    <!--card da replicare 270x170x360, fare il componente???-->
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-title">Development ></p>
+          <p class="card-text">The complete iOS10 & Swift3 Developer Course</p> 
+          <br>
+        <div class="d-flex justify-content-between">
+          <p> 
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </p>
+          <div>
+            <p class="oldPrice">199.99$</p> <!--aggiungere classe oldprice-->
+            <p>$100</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </template>
 
 <style lang="scss" scoped>
@@ -30,5 +57,25 @@ export default {
   height: 400px;
   text-align: center;
   line-height: 100%;
+}
+
+.card{
+  height: 360px; 
+  width: 270px;
+}
+
+.card-img-top{
+  height: 170px; 
+  width: 270px;
+}
+
+.oldPrice{
+  font-size: small;
+  text-decoration: line-through;
+  color: gray;
+}
+
+.fa-star{
+  color: yellow;
 }
 </style>
