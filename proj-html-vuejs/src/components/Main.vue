@@ -114,6 +114,38 @@ export default {
   </div>
 <!--newsletter-->
 
+<!--popular courses-->
+<div class="container-fluid d-flex flex-column justify-content-center" id="popularCourses">
+  <h1 style="padding-top: 110px;">Popular Courses</h1>
+  <p> Discover our most popular courses for self learning</p>
+  
+  <div class="container-fluid">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-title">Development ></p>
+        <p class="card-text">The complete iOS10 & Swift3 Developer Course</p>
+        <br>
+        <div class="d-flex justify-content-between">
+          <p> 
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </p>
+        
+          <div>
+            <p class="oldPrice">199.99$</p> <!--aggiungere classe oldprice-->
+            <p>$100</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--popular courses-->
+
 </template>
 
 <style lang="scss" scoped>
@@ -139,6 +171,10 @@ export default {
   color: white; 
   padding-top: 35px; 
   margin-top: 110px;
+}
+
+#popularCourses{
+  height: 740px;
 }
 
 .redBtn{
