@@ -146,6 +146,29 @@ export default {
 </div>
 <!--popular courses-->
 
+<!--call to action-->
+<div class="container-fluid d-flex flex-row align-items-center " style="height: 525px;">
+        
+  <div class="d-flex advertisementCard" style="margin-left: 90px; margin-right: 15px;">
+    <img src="images/image_box_1-221x231.png" alt="">
+    <div class="d-flex flex-column" style="width: 550px;">
+      <h4> Become an Instructor </h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quo commodi totam? Iure, atque ut.</p>
+      <button type="button" class="btn redBtn"> START TEACHING </button>   
+    </div> 
+  </div>
+
+  <div class="d-flex advertisementCard" style="margin-left: 15px; margin-right: 90px;">
+    <img src="images/image_box_2-234x231.png" alt="">
+    <div class="d-flex flex-column" style="width: 550px;">
+      <h4> Access for business </h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quo commodi totam? Iure, atque ut.</p>
+      <button type="button" class="btn redBtn"> DOING BUSINESS </button>    
+    </div>
+  </div>
+</div>
+<!--call to action-->
+
 </template>
 
 <style lang="scss" scoped>
@@ -193,6 +216,12 @@ ul li{
 .card{
   height: 360px; 
   width: 270px;
+}
+
+.advertisementCard{
+  height: 375px; 
+  width: 850px; 
+  border: 1px solid gray;
 }
 
 .card-img-top{
