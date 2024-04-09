@@ -47,15 +47,72 @@ export default {
     </div>
   </div>
 
-<!--2 Jumbotron-->
-<div class="container-fluid d-flex" id="2Jumbotron">
-  <div class="d-flex flex-column" style="padding-left:15%; padding-top: 140px;">
-    <h1> Limitless learning, <br> more possibilities</h1>
-    <p> Online courses open the opportunity for learning to almost anyone, <br>
-        regardless of their scheduling committments. </p>
-    <button type="button" class="btn" id="readMoreBtn"> READ MORE </button>    
+  <!--2 Jumbotron-->
+  <div class="container-fluid d-flex" id="2Jumbotron">
+    <div class="d-flex flex-column" style="padding-left:15%; padding-top: 140px;">
+      <h1> Limitless learning, <br> more possibilities</h1>
+      <p> Online courses open the opportunity for learning to almost anyone, <br>
+          regardless of their scheduling committments. </p>
+      <button type="button" class="btn" id="redBtn"> READ MORE </button>    
     </div>
   </div>
+
+  <!--recent courses-->
+  <div class="container-fluid d-flex flex-column justify-content-center" style="width: 55%">
+    <ul class="d-flex flex-row">
+      <li>All Categories</li> <!--font-size dinamica???-->
+      <li>Business</li>
+      <li>Design</li>
+      <li>Development</li>
+      <li>IT & Software</li>
+      <li>Lifestyle</li>
+      <li>Marketing</li>
+      <li>Office Productivity</li>
+    </ul>
+    <div class="container-fluid">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-title">Development ></p>
+          <p class="card-text">The complete iOS10 & Swift3 Developer Course</p>
+          <br>
+          <div class="d-flex justify-content-between">
+            <p> 
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </p>
+          <div>
+            <p class="oldPrice">199.99$</p> <!--aggiungere classe oldprice-->
+            <p>$100</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!--2 row di 6 cards-->
+    <button type="button" class="btn redBtn"> SHOW ALL</button>
+  </div>
+<!--recent courses-->
+
+<!--newsletter-->
+  <div class="container-fluid d-flex" id="newsletter">
+    <div style="width: 50%;">
+      <h4> Subscribe to our newsletter</h4>
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Aliquam odio eius, dolor sit quidem asperiores quia itaque incidunt vel accusantium, facilis odit quo quae.</p>
+    </div>        
+            
+    <div class="d-flex flex-column" style="width:50%">
+      <h5>YOUR E-MAIL ADDRESS</h5>
+      <div class="input-group ">
+        <input type="text" class="form-control" placeholder="Enter your E-mail" aria-label="" aria-describedby="">
+        <button class="btn" type="button" id="" style="padding: 10px; background-color: #334453; color: white;"> Subscribe </button>
+      </div>
+    </div>
+  </div>
+<!--newsletter-->
 
 </template>
 
@@ -75,13 +132,26 @@ export default {
   background-position: 75% 75%;
 }
 
-#readMoreBtn{
+#newsletter{
+  height: 170px; 
+  background-color: #ff4550; 
+  width: 60%; 
+  color: white; 
+  padding-top: 35px; 
+  margin-top: 110px;
+}
+
+.redBtn{
   background-color: #ff4550; 
   width: fit-content; 
   color: white; 
   padding: 15px; 
   padding-top: 15px; 
   font-size: large;
+}
+
+ul li{
+  list-style: none;
 }
 
 .card{
