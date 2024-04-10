@@ -1,5 +1,10 @@
 <script>
-export default {}
+import Card from "/components/partials/Card.vue";
+export default {
+  components: {
+    Card,
+  }
+}
 </script>
 
 <template>
@@ -18,7 +23,6 @@ export default {}
  <!--popular dev courses-->
  <div class="container" style="height: 600px;"> <!--semplificare la struttura?-->
     <h3 style="font-weight: bold; padding-top: 90px; padding-bottom: 40px;"> Popular development courses</h3>
-    <!--card da replicare 270x170x360, fare il componente???-->
     
     <div class="container d-flex flex-row">
       
