@@ -1,7 +1,5 @@
 <script>
-/*import 
-export default { 
-}; */
+export default {}
 </script>
 
 <template>

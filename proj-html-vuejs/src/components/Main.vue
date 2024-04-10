@@ -1,10 +1,5 @@
 <script>
-/*import  from 
-export default {
-  components: {
-  },
-  mounted() {},
-};*/
+export default {}
 </script>
 
 <template>

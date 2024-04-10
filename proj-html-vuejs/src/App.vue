@@ -1,17 +1,28 @@
-<script setup>
-import Header from "./components/Header.vue";
-import Main from "./components/Main.vue";
-/*import Footer from "./components/Footer.vue";*/
+<script>
+import Header from './components/Header.vue'; 
+import Main from './components/Main.vue';
+import Footer from './components/Footer.vue';
+
+export default{
+  components: {
+    Header,
+    Main,
+    Footer
+  }
+}
 
 </script>
 
 <template>
   
-  <Header />
-  <Main />
+  <Header  />
+  <Main  />
+  <Footer  />
 
 </template>
 
-<style scoped>
+<style lang="scss">
+
+  @use "./style.css";
 
 </style>
