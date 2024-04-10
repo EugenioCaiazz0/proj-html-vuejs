@@ -166,8 +166,23 @@ export default {
       <button type="button" class="btn redBtn"> DOING BUSINESS </button>    
     </div>
   </div>
+
 </div>
 <!--call to action-->
+
+<!--advertisement-->
+<div id="advertisementBottom" class="container-fluid">
+  <div class="d-flex flex-column align-items-center advertisementTextbox">
+    <h4 style="padding-top: 100px;"> Investing For Your Future</h4>
+    <p style="color: gray; padding: 30px 100px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae praesentium autem nulla natus numquam sunt similique error sed suscipit alias neque consectetur voluptas omnis deserunt dolorem excepturi debitis, fugit itaque dolores quam consequatur veritatis accusamus?</p>
+    <div style="align-self: flex-start; padding-left: 100px;">
+      <h5> Linda Green </h5>
+      <p> Product Manager, Apple Inc</p>
+    </div>
+  </div>
+</div>
+<!--advertisement-->
+
 
 </template>
 
@@ -200,6 +215,13 @@ export default {
   height: 740px;
 }
 
+#advertisementBottom{
+  background-image: url(images/testimonial-1-1917x640-1-1914x639.jpg); 
+  background-size: cover; 
+  height: 670px; 
+  position: relative;
+}
+
 .redBtn{
   background-color: #ff4550; 
   width: fit-content; 
@@ -222,6 +244,15 @@ ul li{
   height: 375px; 
   width: 850px; 
   border: 1px solid gray;
+}
+
+.advertisementTextbox{
+  width: 730px; 
+  height: 530px;
+  position: absolute; 
+  left: 20%; 
+  top:10%; 
+  background-color: white;
 }
 
 .card-img-top{
