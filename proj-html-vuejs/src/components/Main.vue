@@ -6,43 +6,166 @@ export default {}
 
 <!--1 Jumbotron-->
 <div class="container d-flex" id="1Jumbotron">
-    <div style="padding-left: 15%; width: 50%;" class="align-content-center"> 
+    <div style="padding-left: 15%; padding-top: 100px; width: 50%;" class="align-content-center"> 
         <h1> Udemy Affiliate Sales</h1>
         <h5> Monetize your audience and attract new customers with Udemy!</h5>
     </div>
     <div style="width: 50%;">
-        <img class="float-end" src="./images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg" alt="Foto di Naassom Azevedo su Unsplash" style="width: 100%; height: 400px; object-fit: cover;">
+        <img class="float-end jumbo1" src="./images/naassom-azevedo-Q_Sei-TqSlc-unsplash.jpg" alt="Foto di Naassom Azevedo su Unsplash">
     </div>
 </div>
 
  <!--popular dev courses-->
  <div class="container" style="height: 600px;"> <!--semplificare la struttura?-->
-    <h3 style="font-weight: bold;"> Popular development courses</h3>
+    <h3 style="font-weight: bold; padding-top: 90px; padding-bottom: 40px;"> Popular development courses</h3>
     <!--card da replicare 270x170x360, fare il componente???-->
+    
+    <div class="container d-flex flex-row">
+      
       <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="./assets/images/895786_7b4b_2-272x161.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-title">Development ></p>
           <p class="card-text">The complete iOS10 & Swift3 Developer Course</p> 
           <br>
-        <div class="d-flex justify-content-between">
-          <p> 
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star-half-stroke"></i>
-          </p>
-          <div>
-            <p class="oldPrice">199.99$</p> <!--aggiungere classe oldprice-->
-            <p>$100</p>
+          
+          <div class="d-flex justify-content-between">
+            <p> 
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </p>
+            <div>
+              <p class="oldPrice">199.99$</p> <!--aggiungere classe oldprice-->
+              <p>$100</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
-  <!--2 Jumbotron-->
+      <div class="card">
+        <img src="./assets/images/246154_d8b0_3-272x161.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-title">Lorem ></p>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, consequuntur?</p> 
+          <br>
+          
+          <div class="d-flex justify-content-between">
+            <p> 
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </p>
+            <div>
+              <p class="oldPrice">199.99$</p> 
+              <p>$100</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./assets/images/752950_b773-272x161.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-title">Lorem ></p>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, reiciendis.</p> 
+          <br>
+          
+          <div class="d-flex justify-content-between">
+            <p> 
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </p>
+            <div>
+              <p class="oldPrice">199.99$</p> 
+              <p>$100</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./assets/images/1253188_58f7_2-272x161.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-title">Lorem ></p>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, iste!</p> 
+          <br>
+          
+          <div class="d-flex justify-content-between">
+            <p> 
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </p>
+            <div>
+              <p class="oldPrice">199.99$</p> 
+              <p>$100</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./assets/images/placeholder.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-title">Lorem ></p>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, iste!</p> 
+          <br>
+          
+          <div class="d-flex justify-content-between">
+            <p> 
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </p>
+            <div>
+              <p class="oldPrice">199.99$</p> 
+              <p>$100</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./assets/images/placeholder.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-title">Lorem ></p>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, iste!</p> 
+          <br>
+          
+          <div class="d-flex justify-content-between">
+            <p> 
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </p>
+            <div>
+              <p class="oldPrice">199.99$</p> 
+              <p>$100</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>  
+
+  </div>
+<!-- popular dev courses -->
+
+<!--2 Jumbotron-->
   <div class="container-fluid d-flex" id="2Jumbotron">
     <div class="d-flex flex-column" style="padding-left:15%; padding-top: 140px;">
       <h1> Limitless learning, <br> more possibilities</h1>
@@ -54,6 +177,7 @@ export default {}
 
   <!--recent courses-->
   <div class="container-fluid d-flex flex-column justify-content-center" style="width: 55%">
+   
     <ul class="d-flex flex-row">
       <li>All Categories</li> <!--font-size dinamica???-->
       <li>Business</li>
@@ -64,7 +188,9 @@ export default {}
       <li>Marketing</li>
       <li>Office Productivity</li>
     </ul>
+   
     <div class="container-fluid">
+      
       <div class="card">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
@@ -80,19 +206,21 @@ export default {}
               <i class="fa-regular fa-star-half-stroke"></i>
             </p>
           <div>
-            <p class="oldPrice">199.99$</p> <!--aggiungere classe oldprice-->
+            <p class="oldPrice">199.99$</p> 
             <p>$100</p>
           </div>
         </div>
       </div>
     </div>
-  </div> <!--2 row di 6 cards-->
+  </div> 
     <button type="button" class="btn redBtn"> SHOW ALL</button>
   </div>
 <!--recent courses-->
 
 <!--newsletter-->
-  <div class="container-fluid d-flex" id="newsletter">
+  <div class="container-fluid d-flex" id="newsletter"> 
+  <div class="d-flex" style=" width: 60%; ">
+
     <div style="width: 50%;">
       <h4> Subscribe to our newsletter</h4>
       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -106,6 +234,8 @@ export default {}
         <button class="btn" type="button" id="" style="padding: 10px; background-color: #334453; color: white;"> Subscribe </button>
       </div>
     </div>
+
+  </div>
   </div>
 <!--newsletter-->
 
@@ -114,7 +244,8 @@ export default {}
   <h1 style="padding-top: 110px;">Popular Courses</h1>
   <p> Discover our most popular courses for self learning</p>
   
-  <div class="container-fluid">
+  <div class="container d-flex flex-row flex-wrap">
+    
     <div class="card">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
@@ -131,13 +262,15 @@ export default {}
           </p>
         
           <div>
-            <p class="oldPrice">199.99$</p> <!--aggiungere classe oldprice-->
+            <p class="oldPrice">199.99$</p>
             <p>$100</p>
           </div>
         </div>
       </div>
     </div>
+
   </div>
+
 </div>
 <!--popular courses-->
 
@@ -200,7 +333,6 @@ export default {}
 #newsletter{
   height: 170px; 
   background-color: #ff4550; 
-  width: 60%; 
   color: white; 
   padding-top: 35px; 
   margin-top: 110px;
@@ -228,11 +360,14 @@ export default {}
 
 ul li{
   list-style: none;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .card{
   height: 360px; 
   width: 270px;
+  margin-right: 20px;
 }
 
 .advertisementCard{
@@ -264,4 +399,12 @@ ul li{
 .fa-star{
   color: yellow;
 }
+
+.jumbo1{
+  width: 100%;
+  height: 400px; 
+  object-fit: cover;
+}
+
+
 </style>

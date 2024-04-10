@@ -32,14 +32,14 @@ export default {}
 
     <!--MIDDLE SECTION-->
     <div class="container d-flex" id="headerMiddle">
-        <div>
+        <div class="d-flex flex-row">
             <img src="proj-html-vuejs/src/assets/images/footer-logo2x-50x56.png" alt="MASTER STUDY">
-            <h2>
+            <h2 style="line-height: inherit;">
                 <span style="color:#292f47; font-weight: bolder;">MASTER</span>
                 <span style="color: #292f47; font-weight: lighter;">STUDY</span>
             </h2>
         </div> <!--logo-->
-        <div>
+        <div class="d-flex">
             <p> <i class="fa-solid fa-bars"></i> CATEGORY</p>
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="Search courses" aria-label="" aria-describedby="">
@@ -51,7 +51,7 @@ export default {}
                 <p> <i class="fa-solid fa-bullhorn"></i> Become an instructor</p>
                 <p> <i class="fa-solid fa-briefcase"></i> For enterprise</p>
             </div>
-            <div><!--login menu-->
+            <div class="d-flex"><!--login menu-->
                 <p><i class="fa-regular fa-user"></i> Log In</p>
                 <!--SIGN UP BUTTON !!!!-->
                 <p><i class="fa-regular fa-bookmark"></i></p>
@@ -83,6 +83,11 @@ header ul {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+header ul li{
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 #headerTop{
