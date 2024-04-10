@@ -12,7 +12,7 @@ export default {
 <!--1 Jumbotron-->
 <div class="container d-flex" id="1Jumbotron">
     <div style="padding-left: 15%; padding-top: 100px; width: 50%;" class="align-content-center"> 
-        <h1> Udemy Affiliate Sales</h1>
+        <h1 style="padding-top: 100px; padding-bottom: 25px;"> Udemy Affiliate Sales</h1>
         <h5> Monetize your audience and attract new customers with Udemy!</h5>
     </div>
     <div style="width: 50%;">
@@ -217,12 +217,12 @@ export default {
       </div>
     </div>
   </div> 
-    <button type="button" class="btn redBtn"> SHOW ALL</button>
+    <button type="button" class="btn redBtn align-self-center"> SHOW ALL</button>
   </div>
 <!--recent courses-->
 
 <!--newsletter-->
-  <div class="container-fluid d-flex" id="newsletter"> 
+  <div class="container-fluid d-flex justify-content-center" id="newsletter"> 
   <div class="d-flex" style=" width: 60%; ">
 
     <div style="width: 50%;">

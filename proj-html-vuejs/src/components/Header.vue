@@ -61,7 +61,7 @@ export default {}
     <!---MIDDLE SECTION-->
 
     <!--BOTTOM SECTION-->
-    <div class="container d-flex justify-content-center" id="headerBottom">
+    <div class="container d-flex justify-content-around" id="headerBottom">
         <span><i class="fa-solid fa-chart-simple"></i> Business</span>
         <span><i class="fa-solid fa-palette"></i> Design</span>
         <span><i class="fa-solid fa-gear"></i> Development</span>
